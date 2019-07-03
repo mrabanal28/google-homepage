@@ -15,8 +15,59 @@ body {
 
 input {
 
+  height: 47px;
   position: relative;
   left: 356px;
-  width: 584px;
+  width: 585px;
+  font-size: 16px;
+  border-radius: 45px;
               
      }
+
+.Buttonp {
+
+  width: 150px;
+  height: 35px;
+  margin-top: 25px;
+  margin-left: 120px;
+  margin-right: -110px;
+  font-size: 13px;
+  display: inline-block;
+  border-radius: 8px;
+  
+
+}
+/* Para despues
+.Buttonp1 {
+  width: 150px;
+  height: 27px; 
+  margin-top: 25px;
+  margin-right: 200px;
+  font-size: 14px;
+}
+*/
+
+ul {
+  list-style-type: none;
+  position: relative;
+  margin: 10px 50px;
+  overflow: hidden;
+  border:100px;
+}
+
+li {
+  float: right;
+}
+
+li a{
+  display: block;
+  color: none;
+  text-align: center;
+  padding: 14px 7px;
+  text-decoration: none;
+}
+
+.botbar {
+  margin-right: 0px;
+  margin-top: 220px;
+}
