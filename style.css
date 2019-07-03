@@ -1,7 +1,22 @@
-.content {
-        
-        background-color: black;
-        
+img {
+  height: 90px;
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 195px;
+  padding-left: 505px;
+}
 
+body {
+  
+  background-color: white;
     
   }
+
+input {
+
+  position: relative;
+  left: 356px;
+  width: 584px;
+              
+     }
