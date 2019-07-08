@@ -8,21 +8,17 @@ img {
 }
 
 body {
-  
-  background-color: white;
-    
+  background-color: white;   
   }
 
 input {
-
   height: 47px;
   position: relative;
   left: 356px;
   width: 585px;
   font-size: 16px;
   border-radius: 45px;
-  text-decoration: none;
-              
+  text-decoration: none;          
      }
 
 .Buttonp {
@@ -35,74 +31,57 @@ input {
   font-size: 13px;
   display: inline-block;
   border-radius: 8px;
-  background-color: #f3f3f3;
-  
-
+  background-color: #f4f4f4;
+  color: #5f6368;
 }
-/* Para despues
-.Buttonp1 {
-  width: 150px;
-  height: 27px; 
-  margin-top: 25px;
-  margin-right: 200px;
-  font-size: 14px;
-}
-*/
 
-ul {
+ul.topnav {
   list-style-type: none;
-  position: relative;
-  margin: 0px;
+  margin: 0;
   padding: 0;
   overflow: hidden;
-  color: #666;
-}
+  }
+ul.topnav li {float: right;}
 
-.topbar1 {
-  float: right;
-  margin-right: 150px;
-
-}
-
-.topbar2 {
-  float: right;
-  margin-left: 150px;
-
-}
-
-li a{
-  display: inline-block;
+ul.topnav li a {
+  display: blocK;
   color: black;
   text-align: center;
-  padding: 14px 7px;
+  padding-top: 14px;
+  padding-right: 0px;
+  margin-right: 120px;
+  margin-left: -96px; 
   text-decoration: none;
 }
 
-.style {
-  margin-top: 272px;
-  margin-bottom: auto;
-  padding: 25px 25px;
-  float: left;
-  background-color: #f3f3f3;
-  border: 1px #e7e7e7;
-  color: #666;
-  font-size:15px;
+ul.botbar {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2f2f2;
+  margin-top: 232px;
+  margin-left: -27px;
+  margin-right: 0px;
+  border-bottom: 1px solid #e4e4e4;
+  padding-top: 30px; 
+  padding-bottom: 30px;
+  }
+
+ul.botbar li a {
+  display: blocK;
+  color: #5f6368;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  padding-left: 27px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+
 }
 
-.style2 {
-  margin-top: 272px;
-  margin-bottom: auto;
-  padding: 25px 25px;
-  float: right;
-  background-color: #f3f3f3;
-  border: 1px #e7e7e7;
-  color: #666;
-  font-size: 15px;
-}
+ul.botbar li {float: left;}
 
-#footer {
-  background-color: #f3f3f3;
-  padding: -500px;
-  
-}
+ul.botbar li.right {float: right;}
+
+
 
