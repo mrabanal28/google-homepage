@@ -12,20 +12,31 @@ body {
   }
 
 input {
-  height: 47px;
   position: relative;
-  left: 356px;
-  width: 585px;
+  height: 47px;
   font-size: 16px;
   border-radius: 45px;
   text-decoration: none;          
      }
 
-.Buttonp {
+input.bartext {
+  border: 1px solid #f3f3f3;
+  margin-top: -10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 580px;
+  left: 326px;
+}
+
+input.bartext:hover {
+  box-shadow: 1px 1px 4px 4px #f5f5f5;
+} 
+
+input.Buttonp {
 
   width: 150px;
   height: 35px;
-  margin-top: 25px;
+  margin-top: 35px;
   margin-left: 120px;
   margin-right: -110px;
   font-size: 13px;
@@ -33,6 +44,8 @@ input {
   border-radius: 8px;
   background-color: #f4f4f4;
   color: #5f6368;
+  border: none;
+  left: 356px;
 }
 
 ul.topnav {
@@ -46,6 +59,8 @@ ul.topnav li {float: right;}
 ul.topnav li a {
   display: blocK;
   color: black;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
   text-align: center;
   padding-top: 14px;
   padding-right: 0px;
@@ -56,15 +71,13 @@ ul.topnav li a {
 
 ul.botbar {
   list-style-type: none;
-  padding: 0;
   overflow: hidden;
   background-color: #f2f2f2;
-  margin-top: 232px;
-  margin-left: -27px;
+  margin-top: 190px;
   margin-right: 0px;
   border-bottom: 1px solid #e4e4e4;
-  padding-top: 30px; 
-  padding-bottom: 30px;
+  padding-top: 15px; 
+  padding-bottom: 15px;
   }
 
 ul.botbar li a {
@@ -72,8 +85,7 @@ ul.botbar li a {
   color: #5f6368;
   font-size: 14px;
   font-weight: normal;
-  text-align: center;
-  padding-left: 27px;
+  padding-right: 17px;
   text-decoration: none;
   font-family: Arial, sans-serif;
 
@@ -81,7 +93,30 @@ ul.botbar li a {
 
 ul.botbar li {float: left;}
 
-ul.botbar li.right {float: right;}
+ul.botbar li.right {
+  float: right; 
+  margin-right: 20px;
+}
 
+ul.country {
+  display: block;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #f2f2f2;
+  color: #5f6368;
+  margin-top: 120px;
+  margin-bottom: -190px;
+  margin-right: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 37px;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  border: 10px solid transparent #5f6368;
+}
+
+#bottom {
+  margin-top: 175px;
+}
 
 
