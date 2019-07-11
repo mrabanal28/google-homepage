@@ -4,7 +4,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 195px;
-  padding-left: 505px;
+  padding-left: 504px;
 }
 
 body {
@@ -20,7 +20,7 @@ input {
      }
 
 input.bartext {
-  border: 1px solid #f3f3f3;
+  border: 1px solid #f2f2f2;
   margin-top: -10px;
   padding-left: 25px;
   padding-right: 25px;
@@ -46,8 +46,6 @@ input.Buttonp {
   color: #5f6368;
   border: none;
   left: 356px;
-  -webkit-transition-duration: 0.4s
-  cursor: pointer;
 }
 
 input.Buttonp:hover {
@@ -76,6 +74,7 @@ ul.topnav li a {
   text-decoration: none;
 }
 
+/*
 ul.botbar {
   list-style-type: none;
   overflow: hidden;
@@ -125,10 +124,66 @@ ul.botbar li.right {
 }
 
 #bottom {
-  margin-top: 180px;
-  margin-bottom: -180px; 
+  margin-top: 170px;
+  margin-bottom: -170px; 
+}
+*/
 
+footer {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #f2f2f2;
+  margin-top: 268px;
+  margin-bottom: -250px;
+  margin-right: -10px;
+  margin-left: -100px; 
+  border-bottom: 1px solid #e4e4e4;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  border-collapse: collapse;
+  border: none;
+  
+}
 
+footer a {
+
+  display: inline-blocK;
+  color: #5f6368;
+  font-size: 14px;
+  font-weight: normal;
+  padding-right: 17px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+.izquierda {
+  float: left;
+  padding-left: 130px; 
+}
+
+.derecha {
+  float: right;
+  padding-right: 25px; 
 }
 
 
+
+.country {
+  color: black;
+  border-bottom: 1px solid #e4e4e4;
+  margin-left: -5px;
+  text-align: left;
+  text-decoration: none;
+  margin-top: 169px;
+  margin-bottom: -268px;
+}
+
+.location {
+  padding-left: 34px;
+  font-family: Arial, sans-serif;
+  color: #5f6368;
+  font-size: 15px;
+
+}
