@@ -3,12 +3,12 @@ img {
   width: 272px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 195px;
+  margin-top: 185px;
   padding-left: 504px;
 }
 
 body {
-  background-color: white;   
+  background-color: white;  
   }
 
 input {
@@ -68,9 +68,10 @@ ul.topnav li a {
   font-size: 13px;
   text-align: center;
   padding-top: 14px;
-  padding-right: 0px;
-  margin-right: 120px;
-  margin-left: -96px; 
+  padding-right: -140px;
+  padding-left: -180px;
+  margin-right: 160px;
+  margin-left: -145px;
   text-decoration: none;
 }
 
@@ -82,16 +83,15 @@ img.bottonapp {
   position: top;
   height: 17px;
   width: 17px;
-  vertical-align: middle;
   border-radius: 2px;
   display: block;
   float: right;
   margin-top: -15px;
-  margin-right: 82px;
   padding: 0;
   color: #000;
   cursor: pointer;
   opacity: .4;
+  margin-right: 125px;
 }
 
 img.bottonapp:hover {
@@ -104,15 +104,15 @@ button {
   border: none;
   border-radius: 2px;
   cursor: pointer;
-  display: inline-block;
+  display: block;
   height: 30px;
   width: 108px;
-  float: right;
   font-family: 'Roboto', serif;
   font-size: 12px;
   font-weight: bolder;
-  margin-top: -20px;
-  margin-right: -82px;
+  margin-top: -24px;
+  margin-left: 1130px;
+  float: right;
 }
 
 
@@ -121,7 +121,6 @@ footer {
   overflow: hidden;
   background-color: #f2f2f2;
   margin-top: 268px;
-  margin-bottom: -250px;
   margin-right: -10px;
   margin-left: -100px; 
   border-bottom: 1px solid #e4e4e4;
@@ -139,7 +138,6 @@ footer a {
   font-size: 14px;
   font-weight: normal;
   padding-right: 17px;
-  padding-bottom: 5px;
   padding-top: 5px;
   text-decoration: none;
   font-family: Arial, sans-serif;
@@ -155,15 +153,12 @@ footer a {
   padding-right: 25px; 
 }
 
-
-
 .country {
   color: black;
   border-bottom: 1px solid #e4e4e4;
   margin-left: -5px;
   text-align: left;
   text-decoration: none;
-  margin-top: 176px;
   margin-bottom: -268px;
 }
 
@@ -172,5 +167,8 @@ footer a {
   font-family: Arial, sans-serif;
   color: #5f6368;
   font-size: 15px;
+}
 
+.allfoot {
+  margin-top: -86px;
 }
